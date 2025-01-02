@@ -3,21 +3,28 @@ header {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    background-color: rgb(10, 10, 199);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(0, 40, 240) 0%, rgb(8, 18, 46) 100%);
     color: white;
-    text-shadow: 4px 4px 4px#000;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
     border-bottom: 2px solid black;
 }
 
 #primary-links {
     display: flex;
     justify-content: center;
-    gap: 8%;
+    gap: 10%;
     border-bottom: 2px solid rgb(156, 156, 156);
-    padding: 3px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 
 
 body {
     margin: auto;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #2b2b2b;
+    background-color: #f0f0f0;
 }
