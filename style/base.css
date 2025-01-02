@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(10, 10, 199);
+    color: white;
+    text-shadow: 4px 4px 4px#000;
+    border-bottom: 2px solid black;
+}
+
+#primary-links {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    border-bottom: 2px solid rgb(156, 156, 156);
+    padding: 3px;
+}
+
+
+body {
+    margin: auto;
+}
