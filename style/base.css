@@ -21,6 +21,10 @@ header {
     letter-spacing: 0.5px;
 }
 
+#primary-links a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
 
 body {
     margin: auto;
@@ -29,3 +33,31 @@ body {
     background-color: #f0f0f0;
 }
 
+#primary-links a.active-link {
+    color: #6f6f6f;
+    bottom: 0;
+}
+    
+#primary-links a {
+    position: relative;
+    height: 2px;
+}
+
+#primary-links a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+#primary-links a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
