@@ -51,7 +51,7 @@ body {
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
-  .primary-links a:hover::before {
+.primary-links a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
