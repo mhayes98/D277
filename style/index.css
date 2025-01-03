@@ -46,7 +46,6 @@
 }
 figure img {
     border: 3.5px solid black;
-    box-shadow: 2px 2px 2px black;
 }
 figcaption {
     font-weight: bold;
