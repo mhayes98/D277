@@ -10,6 +10,14 @@ header {
     border-bottom: 2px solid black;
 }
 
+body {
+    margin: auto;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #2b2b2b;
+    background-color: #f0f0f0;
+}
+
+/* Nav bar */
 .primary-links {
     display: flex;
     justify-content: center;
@@ -20,29 +28,16 @@ header {
     font-size: 14px;
     letter-spacing: 0.5px;
 }
-
 .primary-links a {
     text-decoration: none;
     color: #2b2b2b;
+    position: relative;
+    height: 2px;
 }
-
-body {
-    margin: auto;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #2b2b2b;
-    background-color: #f0f0f0;
-}
-
 .primary-links a.active-link {
     color: #6f6f6f;
     bottom: 0;
 }
-    
-.primary-links a {
-    position: relative;
-    height: 2px;
-}
-
 .primary-links a::before {
     content: '';
     position: absolute;
@@ -56,8 +51,9 @@ body {
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
-  
-.primary-links a:hover::before {
+  .primary-links a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
+
+
