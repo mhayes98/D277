@@ -28,7 +28,7 @@
 }
 
 
-/* Secondary nav bar with image links */
+/* Figure nav bar with image links */
 .secondary-links {
     display: flex;
     flex-direction: column;

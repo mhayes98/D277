@@ -17,7 +17,7 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Nav bar */
+/* Nav bar with text links */
 .primary-links {
     display: flex;
     justify-content: center;
