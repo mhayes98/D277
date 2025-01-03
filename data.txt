@@ -1,0 +1,4 @@
+ff pop = 28k
+incorp = feb. 28th, 1835
+region = western edge of the inner bluegrass region
+urban 
