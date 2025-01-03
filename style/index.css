@@ -13,6 +13,8 @@
     background-size: cover;
     height: 525px;
     width: 950px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px;
 }
 .welcome-wrapper h2 {
     color: white;
@@ -42,7 +44,15 @@
     display: flex;
     justify-content: space-around;
 }
+figure img {
+    border: 3.5px solid black;
+    box-shadow: 2px 2px 2px black;
+}
 figcaption {
     font-weight: bold;
     text-align: center;
+}
+figcaption a {
+    text-decoration: none;
+    color: #2b2b2b;
 }
