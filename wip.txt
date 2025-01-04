@@ -1,0 +1,16 @@
+Plan of Action:
+    - SKETCH AS NEEDED
+    - USE NOTEBOOK
+        1) Figure out positioning of section & quick-links
+            - Decide on design choice
+            - Try to use as many req. as possible
+        2) Brainstorm footer
+            - Horse logo probably?
+        3) Determine layout of secondary pages
+            - Copy paste x3
+        4) Code secondary pages
+            - Primarily copy paste 
+        5) Final: Work on JS form page
+    *** Adapt to feedback
+    *** Keep things clean
+    *** Finish Sunday if possible
