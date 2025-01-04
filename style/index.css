@@ -88,7 +88,29 @@ figcaption a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    background-color: rgb(39, 57, 255);
+    border-radius: 20px;
+    width: 250px;
+    height: 355px;
 }
+#quick-links h2 {
+    align-self: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+#quick-links a {
+    color: white;
+    margin-left: 20px;
+    text-shadow: 1px 1px 1.5px rgb(0, 0, 0);
+}
+#quick-links ul {
+    padding: 0px;
+    margin: 2px;
+}
+
+
+
+
 
 /* Use relative, absolute, and/or float (HTML property?) to position quicklinks
 /* Will be reused on other pages

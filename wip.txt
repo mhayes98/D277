@@ -14,3 +14,7 @@ Plan of Action:
     *** Adapt to feedback
     *** Keep things clean
     *** Finish Sunday if possible
+
+
+    Fix lists
+    <ul> with <li></li> inside, not multiple <ul>

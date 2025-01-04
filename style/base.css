@@ -20,13 +20,15 @@ body {
 /* Nav bar with text links */
 .primary-links {
     display: flex;
+    color: black;
     justify-content: center;
     gap: 10%;
     border-bottom: 2px solid rgb(156, 156, 156);
     padding: 0px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.5px;
+    background-color: #ffffff;
 }
 .primary-links a {
     text-decoration: none;
@@ -35,7 +37,7 @@ body {
     height: 2px;
 }
 .primary-links a.active-link {
-    color: #6f6f6f;
+    color: #a19d9d;
     bottom: 0;
 }
 .primary-links a::before {
