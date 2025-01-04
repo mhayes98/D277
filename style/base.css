@@ -4,7 +4,7 @@ header {
     align-items: center;
     gap: 25px;
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgb(0, 40, 240) 0%, rgb(8, 18, 46) 100%);
+    background: radial-gradient(circle, rgb(0, 40, 240) 0%, rgb(1, 10, 32) 100%);
     color: white;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     border-bottom: 2px solid black;
