@@ -1,9 +1,10 @@
 .upper-section {
     display: flex;
     flex-direction: row;
-    margin: 25px;
     justify-content: center;
     gap: 150px;
+    padding: 25px;
+    border-bottom: 2px solid rgb(198, 197, 197);
 }
 .upper-section aside {
     display: flex;
