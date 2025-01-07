@@ -32,6 +32,7 @@ footer {
     font-size: 15px;
     letter-spacing: 0.5px;
     background-color: #ffffff;
+    position: sticky;
 }
 .primary-links li {
     display: inline;
