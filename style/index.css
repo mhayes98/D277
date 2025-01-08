@@ -66,4 +66,11 @@ figcaption a:hover {
     color: #6f6f6f;
 }
 
-
+/* Bottom facts section */
+.bottom-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
