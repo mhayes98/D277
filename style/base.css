@@ -22,6 +22,9 @@ footer {
 }
 
 /* Nav bar with text links */
+.sticky-header {
+    position: sticky;
+}
 .primary-links {
     display: flex;
     color: black;
@@ -32,7 +35,7 @@ footer {
     font-size: 15px;
     letter-spacing: 0.5px;
     background-color: #ffffff;
-    position: sticky;
+
     top: 0;
 }
 .primary-links li {
@@ -278,3 +281,19 @@ table, th {
     box-shadow: 5px 5px 5px;
 }
 
+/* Contact form */
+.question-link {
+    position: absolute;
+    top: 101px;
+    right: 25px;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+    text-wrap: wrap;
+    width: 55px;
+    text-align: center;
+    font-size: 15px;
+}
+.question-link:hover {
+    color: #6f6f6f;
+}
