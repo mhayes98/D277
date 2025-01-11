@@ -54,16 +54,16 @@
                     <textarea id="message" name="message" required></textarea>
 
                     <button onclick="verifyEmails()">Submit</button>
-                    <script>
-                        function verifyEmails() {
-                            let emailOne = document.getElementById("email").value;
-                            let emailTwo = document.getElementById("email_confirm").value;
+                        <script>
+                            function verifyEmails() {
+                                let emailOne = document.getElementById("email").value;
+                                let emailTwo = document.getElementById("email_confirm").value;
 
-                            if (emailOne != emailTwo) {
-                                alert("Emails do not match. Please re-enter.");
+                                if (emailOne != emailTwo) {
+                                    alert("Emails do not match. Please re-enter.");
+                                }
                             }
-                        }
-                    </script>
+                        </script>
                     <img src="./images/envelope.png" width= "40px" height="22px" alt="Moving envelope">
 
 
