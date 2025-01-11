@@ -14,38 +14,64 @@
         <a href="./contact.html" class="question-link"><i>Ask A Question!</i></a></li>
     </header>
 
-    <div class="sticky-header">
-        <nav class="primary-links">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./frankfort.html">Frankfort</a></li>
-                <li><a href="./louisville.html">Louisville</a></li>
-                <li><a href="./lexington.html">Lexington</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="primary-links">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./frankfort.html">Frankfort</a></li>
+            <li><a href="./louisville.html">Louisville</a></li>
+            <li><a href="./lexington.html">Lexington</a></li>
+        </ul>
+    </nav>
 
-    <section>
-        <form action="">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required>
+    <section class="upper-section">
+        <div class="left-info-wrapper">
+        <h4> Have a question about Kentucky? Want to know more about the Bluegrass State's history, culture, or attractions? <br><br>
+            Submit your question using the form on this page, and a member of the Governor's office will respond to you as soon as possible.</h4>
+        <aside id="contact-dyk">
+            <h2><i>Did you know?</i></h2>
+            <p>Every question that gets submitted is personally read by the Governors office located in Frankfort. <br><br>In 2024, 72% of questions received a response within 3 days.
+                <br><br><i>"The governor should be a public servant who listens" - Gov. Andy Beshear</i>
+            </p>
+        </aside>
+        </div>
 
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="email">Confirm Email:</label>
-            <input type="email" id="email_confirm" name="email_confirm" required>
-            
-            <label for="message">Question:</label>
-            <textarea id="message" name="message" required></textarea>
+        <div class="form-wrapper">
+            <form action="">
+                
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                        
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                        
+                    <label for="email">Confirm Email:</label>
+                    <input type="email" id="email_confirm" name="email_confirm" required>
+                        
+                    <label for="message">Question:</label>
+                    <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Submit</button>
-
-        </form>
+                    <button type="submit">Submit</button>
+                    <img src="./images/envelope.png" width= "40px" height="22px" alt="Moving envelope">
+                </form>
+            </div>
     </section>
+
+    
+    <section id="video">
+        <h3>Hear the latest from Gov. Beshear</h3>
+        <figure id="gov-video">
+            <iframe width="750" height="485" src="https://www.youtube.com/embed/NLPv5u2N6as">
+            </iframe>
+        </figure>
+        <h5>Winter Weather Update - 01.05.25</h5>
+        
+    </section>
+
+
+    
 
     <footer></footer>
 </body>
