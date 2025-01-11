@@ -53,8 +53,20 @@
                     <label for="message">Question:</label>
                     <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit">Submit</button>
+                    <button onclick="verifyEmails()">Submit</button>
+                    <script>
+                        function verifyEmails() {
+                            let emailOne = document.getElementById("email").value;
+                            let emailTwo = document.getElementById("email_confirm").value;
+
+                            if (emailOne != emailTwo) {
+                                alert("Emails do not match. Please re-enter.");
+                            }
+                        }
+                    </script>
                     <img src="./images/envelope.png" width= "40px" height="22px" alt="Moving envelope">
+
+
                 </form>
             </div>
     </section>
